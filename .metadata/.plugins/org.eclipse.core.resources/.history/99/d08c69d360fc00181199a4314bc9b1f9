@@ -1,0 +1,21 @@
+//Weilin Shu
+//35B Project 4
+
+package driver;
+import scale.EditOptions;
+import adapter.*;
+import client.DefaultSocketClient;
+
+public class Project5ClientDriver {
+
+	public static void main(String[] args) {
+
+
+		DefaultSocketClient C1 = new DefaultSocketClient("192.168.0.108",4444);
+		
+		C1.start();
+	}
+
+		
+	}
+

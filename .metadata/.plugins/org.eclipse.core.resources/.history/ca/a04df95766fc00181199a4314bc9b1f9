@@ -1,0 +1,58 @@
+
+package client;
+
+import model.*;
+
+import java.util.*;
+
+public class SelectCarOptions {
+
+	////////// PROPERTIES //////////
+	private Scanner in = new Scanner(System.in);
+	private ArrayList<String> Models;
+
+	////////// CONSTRUCTORS //////////
+
+	public void SelectCarOptions() {
+
+	}
+
+	////////// INSTANCE METHODS //////////
+
+	public void configureAuto(Object obj) {
+		Auto a1 = (Auto) obj;
+		
+		a1.Print();
+		Models.add((a1.getModel()));
+		a1.GetSelection();
+		a1.Print();
+	}
+	
+	public String getModel(){
+
+			String listString = "";
+
+			for (String s : Models)
+			{
+			    listString += s + "\t";
+			}
+			System.out.print(listString);
+			return listString;
+		
+	}
+
+	public boolean isAutomobile(Object obj) {
+		boolean isAutomobile = false;
+
+		try {
+			Auto a1 = (Auto) obj;
+			isAutomobile = true;
+		}
+		catch (ClassCastException e) {
+			isAutomobile = false;
+		}
+
+		return isAutomobile;
+	}
+
+}

@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Dec 10 11:52:22 PST 2018
+org.eclipse.jst.jee.server\:test-app=C\:\\apache-tomcat-7.0.34\\wtpwebapps\\test-app
+org.eclipse.jst.jee.server\:Project6=C\:\\apache-tomcat-7.0.34\\wtpwebapps\\Project6

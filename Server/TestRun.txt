@@ -1,0 +1,144 @@
+Connecting to host ... 
+Connected to host, creating object streams ... 
+Communicating with host ... 
+Received server response ... 
+
+Enter 1 to upload a new Automobile
+Enter 2 to configure an Automobile
+Enter 0 to terminate connection
+
+Response to server: 
+1
+Sending 1 to server ... 
+
+Received server response ... 
+Upload a file to create an Automobile
+Response to server: 
+FordZTWPropertyFile.txt
+Sending CarModel=FTW
+CarMake=Ford
+Option1=Color
+OptionValue1a=Fort Knox Gold Clearcoat Metallic
+OptionValue1b=Liquid Grey Clearcoat Metallic
+OptionValue1c=Infra-Red Clearcoat
+OptionValue1d=Grabber Green Clearcoat Metallic
+OptionValue1e=Sangria Red Clearcoat Metallic
+OptionValue1f=French Blue Clearcoat Metallic
+OptionValue1g=Twilight Blue Clearcoat Metallic
+OptionValue1h=CD Silver Clearcoat Metallic
+OptionValue1i=Pitch Black Clearcoat
+OptionValue1j=Cloud 9 White Clearcoat
+Option2=Transmission
+OptionValue2a=automatic
+OptionValue2b=manual
+Option3=Brakes/Traction Control
+OptionValue3a=Standard
+OptionValue3b=ABS
+OptionValue3c=ABS with Advance Trac
+Option4=Side Impact Air Bags
+OptionValue4a=Present
+OptionValue4b=Not Present
+Option5=Power Moonroof
+OptionValue5a=Present
+OptionValue5b=Not Present to server ... 
+
+Received server response ... 
+Automobile object successfully added to database
+Press any key to return to main menu
+Response to server: 
+
+Sending  to server ... 
+
+Received server response ... 
+
+Enter 1 to upload a new Automobile
+Enter 2 to configure an Automobile
+Enter 0 to terminate connection
+
+Response to server: 
+1
+Sending 1 to server ... 
+
+Received server response ... 
+Upload a file to create an Automobile
+Response to server: 
+TeslaModelZPropertyFile.txt
+Sending CarModel=ModelZ
+CarMake=Tesla
+Option1=Color
+OptionValue1a=Fort Knox Gold Clearcoat Metallic
+OptionValue1b=Liquid Grey Clearcoat Metallic
+OptionValue1c=Infra-Red Clearcoat
+OptionValue1d=Grabber Green Clearcoat Metallic
+OptionValue1e=Sangria Red Clearcoat Metallic
+OptionValue1f=French Blue Clearcoat Metallic
+OptionValue1g=Twilight Blue Clearcoat Metallic
+OptionValue1h=CD Silver Clearcoat Metallic
+OptionValue1i=Pitch Black Clearcoat
+OptionValue1j=Cloud 9 White Clearcoat
+Option2=Transmission
+OptionValue2a=automatic
+OptionValue2b=manual
+Option3=Brakes/Traction Control
+OptionValue3a=Standard
+OptionValue3b=ABS
+OptionValue3c=ABS with Advance Trac
+Option4=Side Impact Air Bags
+OptionValue4a=Present
+OptionValue4b=Not Present
+Option5=Power Moonroof
+OptionValue5a=Present
+OptionValue5b=Not Present to server ... 
+
+Received server response ... 
+Automobile object successfully added to database
+Press any key to return to main menu
+Response to server: 
+
+Sending  to server ... 
+
+Received server response ... 
+
+Enter 1 to upload a new Automobile
+Enter 2 to configure an Automobile
+Enter 0 to terminate connection
+
+Response to server: 
+2
+Sending 2 to server ... 
+
+Received server response ... 
+Select an Automobile from the following list to configure: 
+[FordFTW, TeslaModelZ]
+Response to server: 
+2
+Sending 2 to server ... 
+
+Received server response ... 
+model.Auto@52231388
+Im fucking here again
+TeslaModelZ
+Choice of OptionSet:
+Color : Fort Knox Gold Clearcoat Metallic Liquid Grey Clearcoat Metallic Infra-Red Clearcoat Grabber Green Clearcoat Metallic Sangria Red Clearcoat Metallic French Blue Clearcoat Metallic Twilight Blue Clearcoat Metallic CD Silver Clearcoat Metallic Pitch Black Clearcoat Cloud 9 White Clearcoat  
+Transmission : automatic manual  
+Brakes/Traction Control : Standard ABS ABS with Advance Trac  
+Side Impact Air Bags : Present Not Present  
+This is the current Choice: 
+[]
+Total Price: 18445.0
+Color
+1Fort Knox Gold Clearcoat Metallic2Liquid Grey Clearcoat Metallic3Infra-Red Clearcoat4Grabber Green Clearcoat Metallic5Sangria Red Clearcoat Metallic6French Blue Clearcoat Metallic7Twilight Blue Clearcoat Metallic8CD Silver Clearcoat Metallic9Pitch Black Clearcoat10Cloud 9 White ClearcoatGet a Choice: 
+1
+Transmission
+1automatic2manualGet a Choice: 
+1
+Brakes/Traction Control
+1Standard2ABS3ABS with Advance TracGet a Choice: 
+1
+Side Impact Air Bags
+1Present2Not PresentGet a Choice: 
+1
+Power Moonroof
+1Present2Not PresentGet a Choice: 
+1
+You selection is [Fort Knox Gold Clearcoat Metallic, automatic, Standard, Present, Present]Response to server:

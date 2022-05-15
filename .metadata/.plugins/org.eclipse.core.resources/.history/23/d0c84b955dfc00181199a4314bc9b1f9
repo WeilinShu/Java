@@ -1,0 +1,17 @@
+package driver;
+import scale.EditOptions;
+import WebPage.Program1;
+import adapter.*;
+import client.DefaultSocketClient;
+
+public class Project6Driver {
+	public static void main(String[] args) {
+
+
+		DefaultSocketClient C1 = new DefaultSocketClient("192.168.0.108",4444);
+		
+		C1.start();
+		
+		Program1 P = new Program1();
+	}
+}

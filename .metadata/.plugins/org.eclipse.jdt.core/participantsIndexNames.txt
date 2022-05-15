@@ -1,0 +1,7 @@
+INDEX VERSION 1.126
+C:\Users\snova\Desktop\35B\J2ee\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3802162452.index
+\Project6\src
+C:\Users\snova\Desktop\35B\J2ee\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1574337110.index
+\test-app\src
+C:\Users\snova\Desktop\35B\J2ee\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\939170896.index
+\test-app\src

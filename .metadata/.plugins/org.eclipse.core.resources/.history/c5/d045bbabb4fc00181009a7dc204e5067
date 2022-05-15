@@ -1,0 +1,45 @@
+package WebPage;
+
+import java.io.*;
+
+import javax.servlet.*;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.*;
+
+import adapter.BuildAuto;
+import driver.Project5ClientDriver;
+
+
+import client.DefaultSocketClient;
+
+@WebServlet("/Lab6")
+public class Program1 extends HttpServlet {
+  
+  public void init(ServletConfig config)
+  {	
+  }
+  
+  public void doGet(HttpServletRequest request,
+                    HttpServletResponse response)
+      throws ServletException, IOException {
+	  
+	  SevletInfo S1 = new BuildAuto();
+
+    response.setContentType("text/html");
+    PrintWriter out = response.getWriter();
+    String docType =
+      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 " +
+      "Transitional//EN\">\n";
+    out.println(docType +
+                "<HTML>\n" +
+                "<HEAD><TITLE>Model Selection</TITLE></HEAD>\n" +
+                "<BODY BGCOLOR=\"#FDF5E6\">\n" +
+                "<H1>Please selecte	 a car model</H1>\n" +
+                "<H1>"+driver.Project5ClientDriver.getC1().getModels()+"</H1>\n"+
+                "<select name=\"select1\">"+
+                "<option value=\"+\">+</option>"+
+                "<option value=\"-\">-</option>"+
+                "</select>"+
+                "</BODY></HTML>");
+  }
+}

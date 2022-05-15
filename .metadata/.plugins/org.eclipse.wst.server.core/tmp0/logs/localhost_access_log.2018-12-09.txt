@@ -1,0 +1,8 @@
+127.0.0.1 - - [09/Dec/2018:12:36:31 -0800] "GET / HTTP/1.1" 200 1130
+0:0:0:0:0:0:0:1 - - [09/Dec/2018:12:36:32 -0800] "GET /Project6/servlet/Servlet.AutoServlet HTTP/1.1" 404 1023
+0:0:0:0:0:0:0:1 - - [09/Dec/2018:12:37:14 -0800] "GET /Project6/servlet/Servlet.AutoServlet HTTP/1.1" 404 1023
+127.0.0.1 - - [09/Dec/2018:12:38:35 -0800] "GET / HTTP/1.1" 200 1130
+0:0:0:0:0:0:0:1 - - [09/Dec/2018:12:38:42 -0800] "GET /examples/servlets/servlet/Program1 HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [09/Dec/2018:12:38:44 -0800] "GET /favicon.ico HTTP/1.1" 404 973
+127.0.0.1 - - [09/Dec/2018:12:39:27 -0800] "GET / HTTP/1.1" 200 1130
+0:0:0:0:0:0:0:1 - - [09/Dec/2018:12:39:28 -0800] "GET /Project6/servlet/Servlet.AutoServlet HTTP/1.1" 404 1023

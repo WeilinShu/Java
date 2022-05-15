@@ -1,0 +1,13 @@
+package server;
+
+import model.Auto;
+
+public interface AutoServer {
+	
+	//public ArrayList<String> ProvideList();
+	
+	public Auto sendObject (int selection);
+	
+	public void AddtoHashMap(Auto a);
+
+}

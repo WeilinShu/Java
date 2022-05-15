@@ -1,0 +1,5 @@
+package WebPage;
+
+public interface SevletInfo {
+
+}
